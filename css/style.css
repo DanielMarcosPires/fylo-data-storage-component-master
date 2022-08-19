@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,300&display=swap');
 @import url('../assets/style/arquivo.css');
+@import url('../assets/style/memoria.css');
 @import url('../assets/style/attribution.css');
 :root{
     --fundo:hsl(229, 57%, 11%);
@@ -22,5 +23,7 @@ article{
     left: 50%;
     transform: translate(-50%,-50%);
     display: flex;
+    align-items: center;
+    gap: 1.5em;
     justify-content: center;
 }

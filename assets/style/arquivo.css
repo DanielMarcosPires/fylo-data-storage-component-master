@@ -1,17 +1,16 @@
 .arquivo{
     position: relative;
-    text-align: center;
-    width: 500px;
+    width: 350px;
     background: var(--cor-do-card);
     filter: opacity(0.8) blur(100%);
     color: var(--cor-da-fonte1);
     border-radius: 1em 100px 1em 1em;
-    padding: 1em;
+    padding: 1em 8px;
 }   
 .arquivo__titulo{
     text-align: left;
     padding: 1em 0;
-    margin: 0 4em;
+    margin: 0 1em;
 }
 .arquivo__lista{
     display: flex;
@@ -22,7 +21,7 @@
     cursor: pointer;
     box-shadow: 0 0 1em black;
     transition: 0.2s;
-    margin: 0 1em;
+    margin: 0 8px;
     background: var(--fundo);
     padding: 0.6em 13px;
     border-radius: 10px;
