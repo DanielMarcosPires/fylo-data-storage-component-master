@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,300&display=swap');
+@import url('../assets/style/arquivo.css');
+@import url('../assets/style/attribution.css');
+:root{
+    --fundo:hsl(229, 57%, 11%);
+    --balao:#fcffff;
+    --cor-do-card:hsl(228, 56%, 26%);
+
+    --cor-da-fonte1:hsl(243, 100%, 93%);
+    --cor-da-fonte2:hsl(229, 7%, 55%);
+}
+body{
+    background: var(--fundo) url(../assets/images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+}
+
+article{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+.attribution{
+    position: absolute;
+    color: white;
+    
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%);
+    background: #00000059;
+    border-radius: 20px;
+    padding: 1em 2em;
+}
+.attribution a{
+    color: #c402ff;
+}
