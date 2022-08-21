@@ -2,6 +2,7 @@
 @import url('../assets/style/arquivo.css');
 @import url('../assets/style/memoria.css');
 @import url('../assets/style/attribution.css');
+@import url('../assets/style/video.css');
 :root{
     --fundo:hsl(229, 57%, 11%);
     --balao:#fcffff;

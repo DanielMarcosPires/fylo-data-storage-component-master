@@ -11,14 +11,15 @@
 .memoria__restante{
    text-align: center;
    line-height: 70px;
-   
+   font-size: 40px;
     position: absolute;
     background: white;
     color: black;
-    border-radius: 10px;
-    width: 100px;
+    border-radius: 18px;
+    padding: 0 9px;
+    width: 150px;
     height: 100px;
-    right:25%;
+    right:12%;
     top: -25%;
 }
 .memoria__restante::after{
@@ -28,11 +29,11 @@
     background: var(--cor-do-card);
     transform: skew(50deg);
     height: 50px;
-    width: 108px;
+    width: 159px;
 }
 .memoria__restante span{
     color: var(--cor-da-fonte2);
-    
+    font-size: 16px;
 }
 .memoria__descricao{
     position: relative;
