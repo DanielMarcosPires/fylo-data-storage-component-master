@@ -9,6 +9,7 @@
     color: white;
 }
 .memoria__restante{
+   
    text-align: center;
    line-height: 70px;
    font-size: 40px;
@@ -17,23 +18,25 @@
     color: black;
     border-radius: 18px;
     padding: 0 9px;
-    width: 150px;
-    height: 100px;
-    right:12%;
-    top: -25%;
+    width: 170px;
+    right:15%;
+    top: -29%;
 }
-.memoria__restante::after{
-    content: '';
-    display: block;
-    position: relative;
-    background: var(--cor-do-card);
-    transform: skew(50deg);
-    height: 50px;
-    width: 159px;
-}
-.memoria__restante span{
+
+.memoria__restante b{
     color: var(--cor-da-fonte2);
     font-size: 16px;
+}
+.memoria__restante span{
+    position: absolute;
+    background: white;
+    bottom: -9px;
+    right:20%;
+    z-index: 20;
+    height: 30px;
+    width: 30px;
+    rotate: 45deg;
+    border-radius: 5px;
 }
 .memoria__descricao{
     position: relative;
